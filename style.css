@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(173, 173, 20, 1) 37%,
+    rgba(255, 127, 0, 1) 98%
+  );
+}
+.wrapper {
+  width: auto;
+  height: auto;
+  margin: 30px auto;
+}
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.21);
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+}
+.watch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bar {
+  width: 40vw;
+  margin: 0 auto;
+  border: 1px solid #ffff67;
+}
+
+.hour,
+.minute,
+.second {
+  font-size: 10vw;
+  color: #bbb555;
+}
+.day,
+.month,
+.year {
+  font-size: 5vw;
+  color: #bbb555;
+}
